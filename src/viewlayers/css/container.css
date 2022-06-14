@@ -1,0 +1,15 @@
+/** 苹果浏览器下拉特效是超过元素总高度的 */
+html,
+body {
+    overflow: hidden
+}
+
+
+/** 苹果浏览器会在canvas周围有一圈蓝边 */
+cavas.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 1;
+}

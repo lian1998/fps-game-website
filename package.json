@@ -1,0 +1,30 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "dev-ws": "nodemon ./server-ws.mjs",
+    "build": "vite build --base=/projects/weapons",
+    "serve": "vite preview --base=/projects/weapons"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/node": "^16.11.6",
+    "@types/three": "^0.133.1",
+    "@types/ws": "^8.2.0",
+    "ammo.js": "^0.0.10",
+    "connect": "^3.7.0",
+    "http": "^0.0.1-security",
+    "normalize.css": "^8.0.1",
+    "reflect-metadata": "^0.1.13",
+    "three": "^0.133.1",
+    "three-ik": "^0.1.0",
+    "typescript": "^4.3.2",
+    "url": "^0.11.0",
+    "vite": "^2.6.13",
+    "ws": "^8.2.3"
+  },
+  "dependencies": {
+    "progressbar.js": "^1.1.0"
+  }
+}
